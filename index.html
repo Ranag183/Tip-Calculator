@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="output-container">
+            <div class="output-tip-amount-box">
+                <p class="category">Tip Amount</p>
+                <h1 class="value tip-amount">$0</h1>
+            </div>
+            <div class="output-total-per-person-container">
+                <p class="category">Per Person</p>
+                <h1 class="value total-per-person">$0</h1>
+            </div>
+        </div>
+        <div class="input-amount-container">
+            <div class="input-values-here-conatiner">
+                <div class="input-bill-amount-container">
+                    <div class="section-one">
+                        <img src="/STARTER-FILES/images/dollar.svg" alt="" class="dollor">
+                        <input type="number" class="input-bill-amount-here" value="0">
+                    </div>
+                    <p class="about">Bill Amount</p>
+                </div>
+                <div class="input-people-number-container">
+                    <div class="section-two">
+                        <img src="/STARTER-FILES/images/people.svg" alt="" class="people">
+                        <input type="number" class="input-number-of-person-here" value="0">
+                    </div>
+                    <p class="about">No of person</p>
+                </div>
+            </div>
+            <div class="select-tip-rate-conatainer">
+                <button class="tip-rate" data-id="not-selected">5%</button>
+                <button class="tip-rate" data-id="not-selected">10%</button>
+                <button class="tip-rate" data-id="not-selected">15%</button>
+                <button class="tip-rate" data-id="not-selected">20%</button>
+            </div>
+            <div class="calculate-tip-amount-container">
+                <button class="calculate-tip-amount">Calculate</button>
+            </div>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
